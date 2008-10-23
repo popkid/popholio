@@ -1,0 +1,4 @@
+from django.contrib import admin
+from kanaler.model import Channel
+
+admin.site.register(Channel)

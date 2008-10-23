@@ -11,11 +11,9 @@ class Channel(models.Model):
     votes =  models.IntegerField()
     
     def __unicode__(self):
-        return "%s: %s er lagt til" % (self.name, self.url)
+        return "%s: %s " % (self.name, self.url)
         
-        
-    
-    
+                                               
     
     
     
